@@ -1,6 +1,6 @@
-"cron": [
-  {
-    "path": "/api/check-memory",
-    "schedule": "*/5 * * * *"
-  }
-]
+{
+  "crons": [{
+    "path": "/api/cron",
+    "schedule": "* /1 * * *"
+  }]
+}
