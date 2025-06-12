@@ -7,7 +7,7 @@
   "crons": [
     {
       "path": "/api/check-memory",
-      "schedule": "*/1 * * * *"
+      "schedule": "0 9 * * *"
     }
   ]
 }
