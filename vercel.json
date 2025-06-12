@@ -1,6 +1,8 @@
 {
-  "crons": [{
-    "path": "/api/cron",
-    "schedule": "* /1 * * *"
-  }]
+  "cron": [
+    {
+      "path": "/api/check-memory",
+      "schedule": "*/1 * * * *"
+    }
+  ]
 }
