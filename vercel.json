@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/check-memory.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "cron": [
+    {
+      "path": "/api/check-memory",
+      "schedule": "*/1 * * * *"
+    }
+  ]
+}
