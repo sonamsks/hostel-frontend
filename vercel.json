@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/check-memory.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "nodejs@20"
     }
   },
   "crons": [
