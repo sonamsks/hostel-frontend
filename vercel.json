@@ -1,9 +1,5 @@
 {
-  "functions": {
-    "api/check-memory.js": {
-      "runtime": "nodejs@20"
-    }
-  },
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "crons": [
     {
       "path": "/api/check-memory",
